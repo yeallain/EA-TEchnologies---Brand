@@ -1,0 +1,77 @@
+URL du LOGO
+
+https://raw.githubusercontent.com/yeallain/EA-TEchnologies---Brand/main/EA%20Technologies%20–%20Branding%20Constellation/EA_sublime_logo.svg
+
+
+XML de Sublime logo:
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="300" height="100"
+  viewBox="0 0 300 100"
+  role="img"
+  aria-labelledby="title desc">
+  <title id="title">EA Technologies – Logo Sublime</title>
+  <desc id="desc">Monogramme “EA” bleu profond, pixel orange dans le A, ligne d’assise fine.</desc>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      .logo-text { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 900; fill: #00487C; }
+      .pixel      { fill: #FFA500; }
+      .baseline   { fill: #00487C; }
+    ]]></style>
+  </defs>
+
+  <!-- Monogramme EA -->
+  <text class="logo-text" x="0" y="75" font-size="80">EA</text>
+
+  <!-- Pixel orange dans le A -->
+  <rect class="pixel" x="105" y="15" width="10" height="10"/>
+
+  <!-- Ligne d’assise sous le A -->
+  <rect class="baseline" x="55" y="85" width="70" height="4"/>
+</svg>
+
+
+CLARIFICATION SUR LES “LIENS GITHUB”
+JE M’EXCUSE POUR LA CONFUSION : JUSQU’À PRÉSENT, JE N’AI PAS FOURNI DE VÉRITABLES URL GITHUB POUR HÉBERGER TES ASSETS. DANS MES TABLEAUX, LES MENTIONS “LINKEDIN / GITHUB / PDF” SONT DES SUGGESTIONS DE SUPPORTS OÙ DÉPLOYER TES FICHIERS, PAS DES LIENS ACTIFS.
+
+Héberger ton kit sur GitHub en trois étapes
+- Créer un dépôt
+- Connecte-toi à github.com
+- Clique sur New repository
+- Nomme-le par exemple EA-Branding
+- Choisis Public (ou Private) et valide
+- Ajouter tes fichiers
+- Dans ton dépôt, clique sur Add file > Upload files
+- Glisse-dépose les fichiers :
+- EA_sublime_bleu_original.svg
+- EA_constellation_vapeur.png
+- etc.
+- Commit ta mise à jour
+- Récupérer les liens
+- Ouvre un fichier (ex. EA_sublime_bleu_original.svg) dans GitHub
+- Clique sur Raw
+- Copie l’URL (format : https://raw.githubusercontent.com/Utilisateur/EA-Branding/main/EA_sublime_bleu_original.svg)
+- Utilise ce lien dans tes pages HTML, CSS ou ta documentation
+
+Exemple d’utilisation en CSS
+.logo {
+  width: 200px;
+  height: auto;
+  background: url('https://raw.githubusercontent.com/EricDev/EA-Branding/main/EA_sublime_bleu_original.svg') no-repeat center;
+}
+
+
+
+Next steps
+- Partage-moi l’URL de ton dépôt pour que je vérifie les liens.
+- Dis-moi si tu préfères GitHub Pages pour publier une petite galerie en ligne.
+- Si tu rencontres un autre problème, je te guide pas à pas.
+
+🔬 DÉTAILS TECHNIQUES DU CHANGEMENT :
+- Avant : Bleu plus profond, parfois tirant vers le “bleu pétrole” (#00487C) — parfait sur fond sombre sans effets
+- Maintenant : Bleu un brin plus lumineux (#005A9C ou proche), pour :
+- Mieux ressortir au milieu des nuances vaporeuses
+- Contraster avec les pixels orangés étoilés
+- Garder son éclat sur fond clair (signature, courriel, PDF)
