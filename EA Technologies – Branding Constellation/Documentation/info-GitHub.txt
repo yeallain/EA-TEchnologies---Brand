@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Logo EA</title>
+  <style>
+    body { margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    img  { max-width: 90%; height: auto; }
+  </style>
+</head>
+<body>
+  <img
+    src="https://raw.githubusercontent.com/yeallain/EA-TEchnologies---Brand/main/EA%20Technologies%20–%20Branding%20Constellation/EA_neon_logo.svg"
+    alt="EA Technologies Neon Logo">
+</body>
+</html>
+
+URL LOGO
+
+https://raw.githubusercontent.com/yeallain/EA-TEchnologies---Brand/main/EA%20Technologies%20–%20Branding%20Constellation/EA_neon_logo.svg
