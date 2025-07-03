@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="300" height="100"
+  viewBox="0 0 300 100"
+  role="img"
+  aria-labelledby="title desc">
+  <title id="title">EA Technologies – Logo Sublime</title>
+  <desc id="desc">Monogramme “EA” en bleu profond, pixel orange dans le A, et légère ligne d’assise.</desc>
+
+  <!-- Définitions de style -->
+  <defs>
+    <style type="text/css"><![CDATA[
+      .logo-text {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-weight: 900;
+        fill: #00487C;
+      }
+      .pixel {
+        fill: #FFA500;
+      }
+      .baseline {
+        fill: #00487C;
+      }
+    ]]></style>
+  </defs>
+
+  <!-- Monogramme EA -->
+  <text
+    class="logo-text"
+    x="0" y="75"
+    font-size="80">
+    EA
+  </text>
+
+  <!-- Pixel orange intégré dans le A -->
+  <rect
+    class="pixel"
+    x="105" y="15"
+    width="10" height="10"/>
+
+  <!-- Ligne d’assise sous le A -->
+  <rect
+    class="baseline"
+    x="55" y="85"
+    width="70" height="4"/>
+</svg>
